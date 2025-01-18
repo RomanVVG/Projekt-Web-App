@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" href="img/nba.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" href="img/nba.ico" type="image/x-icon"/>
+		<title>Contact</title>
+	</head>
+	<body>
+	<header>
+		<div class="hero-image" style="height: 200px;"></div>
+		<nav>
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="news.html">News</a></li>
+			  <li><a href="contact.html">Contact</a></li>
+			  <li><a href="about-us.html">About</a></li>
+			  <li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Contact Form</h1>
+		<div id="contact">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1281111913195!2d-73.97883292358466!3d40.75920693472365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258fbf7b68d6f%3A0x7df48c3d88004253!2sOlympic%20Tower%2C%20645%205th%20Ave%2C%20New%20York%2C%20NY%2010022%2C%20Sjedinjene%20Ameri%C4%8Dke%20Dr%C5%BEave!5e0!3m2!1shr!2shr!4v1737115063321!5m2!1shr!2shr" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<form action="http://work2.eburza.hr/pwa/responzive-page/send-contact.php" id="contact_form" name="contact_form" method="POST">
+				<label for="fname">First Name *</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+				<label for="lname">Last Name *</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+				
+				<label for="lname">Your E-mail *</label>
+				<input type="email" id="email" name="email" placeholder="Your e-mail.." required>
+
+				<label for="country">Country</label>
+				<select id="country" name="country">
+				  <option value="">Please select</option>
+				  <option value="BE">United States</option>
+				  <option value="HR" selected>Croatia</option>
+				  <option value="LU">France</option>
+				  <option value="HU">Serbia</option>
+				</select>
+
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2025 Roman Ranogajec. <a href="https://github.com/RomanVVG?tab=repositories"><img src="img/GitHub-Mark-Light-32px.png" class="github-icon" alt="Github" title="Github"></a></p>
+	</footer>
+</body>
+</html>
